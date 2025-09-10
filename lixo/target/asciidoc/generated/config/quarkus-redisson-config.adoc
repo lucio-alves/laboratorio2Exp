@@ -1,0 +1,108 @@
+
+:summaryTableId: quarkus-redisson-config
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-redisson-config_configuration]]link:#quarkus-redisson-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson-params]]`link:#quarkus-redisson-config_quarkus.redisson-params[quarkus.redisson]`
+
+[.description]
+--
+Common params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson.single-server-config-single-server-config]]`link:#quarkus-redisson-config_quarkus.redisson.single-server-config-single-server-config[quarkus.redisson.single-server-config]`
+
+[.description]
+--
+Single server params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON_SINGLE_SERVER_CONFIG+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON_SINGLE_SERVER_CONFIG+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson.cluster-servers-config-cluster-servers-config]]`link:#quarkus-redisson-config_quarkus.redisson.cluster-servers-config-cluster-servers-config[quarkus.redisson.cluster-servers-config]`
+
+[.description]
+--
+Cluster servers params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON_CLUSTER_SERVERS_CONFIG+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON_CLUSTER_SERVERS_CONFIG+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson.sentinel-servers-config-sentinel-servers-config]]`link:#quarkus-redisson-config_quarkus.redisson.sentinel-servers-config-sentinel-servers-config[quarkus.redisson.sentinel-servers-config]`
+
+[.description]
+--
+Sentinel servers params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON_SENTINEL_SERVERS_CONFIG+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON_SENTINEL_SERVERS_CONFIG+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson.replicated-servers-config-replicated-servers-config]]`link:#quarkus-redisson-config_quarkus.redisson.replicated-servers-config-replicated-servers-config[quarkus.redisson.replicated-servers-config]`
+
+[.description]
+--
+Replicated servers params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON_REPLICATED_SERVERS_CONFIG+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON_REPLICATED_SERVERS_CONFIG+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-redisson-config_quarkus.redisson.master-slave-servers-config-master-slave-servers-config]]`link:#quarkus-redisson-config_quarkus.redisson.master-slave-servers-config-master-slave-servers-config[quarkus.redisson.master-slave-servers-config]`
+
+[.description]
+--
+Master and slave servers params
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_REDISSON_MASTER_SLAVE_SERVERS_CONFIG+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_REDISSON_MASTER_SLAVE_SERVERS_CONFIG+++`
+endif::add-copy-button-to-env-var[]
+--|`Map<String,String>` 
+|
+
+|===
